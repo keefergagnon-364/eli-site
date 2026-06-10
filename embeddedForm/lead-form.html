@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Service Request Form</title>
+<link rel="stylesheet" href="lead-form.css">
+</head>
+<body>
+<section class="lead-form-container">
+<form id="serviceRequestForm">
+
+<input type="text" name="website" class="honeypot" tabindex="-1" autocomplete="off">
+
+<h2>Request a Quote</h2>
+
+<div class="grid">
+<div><label>Full Name *</label><input type="text" name="name" required></div>
+<div><label>Phone *</label><input type="tel" id="phone" required></div>
+<div><label>Email *</label><input type="email" name="email" required></div>
+<div><label>Address *</label><input type="text" name="address" required></div>
+</div>
+
+<label>Preferred Contact Method</label>
+<select name="contactMethod">
+<option>Phone Call</option>
+<option>Text Message</option>
+<option>Email</option>
+</select>
+
+<label>Service Needed *</label>
+<select id="serviceNeeded" required>
+<option value="">Select Service</option>
+<option>Lawn Care</option>
+<option>Landscaping</option>
+<option>Irrigation</option>
+<option>Tree Trimming</option>
+<option>Yard Cleanup</option>
+<option>Mulch Installation</option>
+<option>Rock Installation</option>
+<option>Artificial Turf</option>
+<option value="other">Other</option>
+</select>
+
+<div id="otherServiceWrapper" class="hidden">
+<label>Specify Service</label>
+<input type="text" id="otherService">
+</div>
+
+<label>Project Description *</label>
+<textarea id="description" maxlength="1000" required></textarea>
+<small id="counter">0 / 1000</small>
+
+<label>Desired Start Date *</label>
+<input type="date" required>
+
+<label>Budget Range</label>
+<select>
+<option>Under $500</option>
+<option>$500 - $1,000</option>
+<option>$1,000 - $2,500</option>
+<option>$2,500 - $5,000</option>
+<option>$5,000+</option>
+<option>Not Sure Yet</option>
+</select>
+
+<label>Best Time To Contact</label>
+<select>
+<option>Morning</option>
+<option>Afternoon</option>
+<option>Evening</option>
+<option>Any Time</option>
+</select>
+
+<label>Photos</label>
+<div id="dropZone">Drag & Drop Photos Here or Click to Upload</div>
+<input type="file" id="photos" multiple accept=".jpg,.jpeg,.png,.webp,.heic" hidden>
+
+<div id="fileList"></div>
+
+<button type="submit">Submit Request</button>
+
+<div id="formMessage"></div>
+
+</form>
+</section>
+<script src="lead-form.js"></script>
+</body>
+</html>
