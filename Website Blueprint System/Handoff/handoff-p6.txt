@@ -1,0 +1,612 @@
+Production Handbook
+Part 6 — Component Specifications & Interaction Library
+
+Document Type: UI Engineering Specification
+
+Status: Design Freeze Approved
+
+Authority: This document defines every reusable user interface component used throughout the IVY Remodeling website. These components are the building blocks of the website and must be implemented consistently across all pages.
+
+Purpose
+
+The purpose of this document is to establish a reusable component library that ensures:
+
+Consistency
+Maintainability
+Accessibility
+Performance
+Predictable user experience
+
+Every component should be built once and reused.
+
+No page should create its own variation of an existing component unless specifically approved.
+
+Component Philosophy
+
+Each component must satisfy five requirements:
+
+Reusable
+Accessible
+Responsive
+Lightweight
+Easy to maintain
+
+Each component should be self-contained and not rely on page-specific styling whenever possible.
+
+Global Header
+Purpose
+
+Provide navigation, branding, and immediate access to primary actions.
+
+Structure
+
+Logo
+
+↓
+
+Primary Navigation
+
+↓
+
+Primary CTA
+
+↓
+
+Mobile Menu Toggle
+
+Behavior
+
+Desktop
+
+Horizontal navigation
+Sticky after scroll
+Smooth background transition
+CTA always visible
+
+Mobile
+
+Hamburger menu
+Slide-out navigation
+Sticky call button
+Sticky estimate button
+Accessibility
+
+Keyboard accessible
+
+ARIA labels
+
+Visible focus states
+
+Logical tab order
+
+Navigation Component
+Requirements
+
+Maximum five primary navigation items.
+
+Current navigation:
+
+Home
+
+Services
+
+Gallery
+
+About
+
+Contact
+
+Mobile Menu
+
+Slide from right.
+
+Close when:
+
+Link clicked
+Escape pressed
+Overlay clicked
+
+Prevent body scrolling while open.
+
+Hero Component
+Purpose
+
+Explain the business immediately.
+
+Structure
+
+Headline
+
+Supporting Copy
+
+Primary CTA
+
+Secondary CTA
+
+Trust Badges
+
+Hero Image
+
+Behavior
+
+Desktop
+
+Text left
+
+Image right
+
+Mobile
+
+Text first
+
+Image below
+
+Buttons stacked
+
+Requirements
+
+No carousel.
+
+No rotating headlines.
+
+No auto-playing animations.
+
+Hero must load immediately.
+
+Trust Bar Component
+Purpose
+
+Provide instant credibility.
+
+Content
+
+Licensed
+
+Insured
+
+Veteran-Owned
+
+10+ Years of Industry Experience
+
+Free Estimates
+
+One-Year Satisfaction Guarantee
+
+Layout
+
+Desktop
+
+Horizontal icons
+
+Mobile
+
+Responsive wrapping
+
+Service Card Component
+Purpose
+
+Introduce services.
+
+Structure
+
+Icon
+
+Title
+
+Description
+
+Learn More button
+
+Hover
+
+Subtle elevation
+
+Shadow increase
+
+Button emphasis
+
+No dramatic animation.
+
+Click
+
+Navigate to service page.
+
+About Section Component
+Structure
+
+Portrait
+
+Story
+
+Mission
+
+Values
+
+CTA
+
+Placeholder
+
+Use approved stock portrait until owner photography is available.
+
+Portrait replacement must not require layout changes.
+
+Before / After Slider
+Purpose
+
+Demonstrate craftsmanship visually.
+
+Interaction
+
+Desktop
+
+Mouse drag
+
+Mobile
+
+Touch swipe
+
+Keyboard
+
+Arrow keys when focused
+
+Performance
+
+Lazy load
+
+Responsive images
+
+No excessive JavaScript
+
+Accessibility
+
+Provide alternative description of before/after images for screen readers.
+
+Gallery Component
+Purpose
+
+Display completed work.
+
+Layout
+
+Responsive masonry/grid
+
+Consistent spacing
+
+Large thumbnails
+
+Features
+
+Filtering by service
+
+Lightbox
+
+Keyboard support
+
+Lazy loading
+
+Image captions
+
+Empty State
+
+If no projects exist for a category:
+
+Display informative message rather than an empty layout.
+
+Review Card Component
+Structure
+
+Customer Name
+
+Star Rating
+
+Review Text
+
+Service Type (optional)
+
+Date (optional)
+
+Placeholder Policy
+
+Development only.
+
+Replace with authentic Google reviews before production whenever available.
+
+FAQ Accordion
+Requirements
+
+Only one panel opens at a time (optional but recommended).
+
+Smooth transition.
+
+Accessible.
+
+Keyboard support.
+
+Visible expanded state.
+
+CTA Banner
+Purpose
+
+Encourage estimate requests throughout the site.
+
+Content
+
+Short headline
+
+Supporting sentence
+
+Primary button
+
+Optional phone button
+
+Placement
+
+Homepage
+
+Service pages
+
+Gallery
+
+About
+
+Bottom of FAQ
+
+Contact Form Component
+Fields
+
+Name
+
+Phone
+
+Email
+
+City
+
+Service Needed
+
+Project Description
+
+Preferred Contact Method
+
+Validation
+
+Required fields clearly marked.
+
+Inline validation.
+
+Accessible error messages.
+
+Confirmation state after successful submission.
+
+Spam Protection
+
+Honeypot
+
+reCAPTCHA (if necessary)
+
+Rate limiting (if applicable)
+
+Contact Information Card
+
+Include:
+
+Phone
+
+Email
+
+Business Hours
+
+Service Area
+
+Response expectation
+
+Map Component
+
+Interactive Google Map.
+
+Lazy loaded.
+
+Fallback link if map fails.
+
+Footer Component
+Structure
+
+Logo
+
+Short business description
+
+Navigation
+
+Services
+
+Contact information
+
+Copyright
+
+Privacy Policy
+
+Requirements
+
+Consistent across every page.
+
+Button Component
+Primary Button
+
+Purpose
+
+Primary conversions.
+
+Secondary Button
+
+Supporting actions.
+
+States
+
+Default
+
+Hover
+
+Focus
+
+Active
+
+Disabled
+
+Loading (if used)
+
+All states should remain visually consistent and accessible.
+
+Form Input Component
+Requirements
+
+Consistent sizing
+
+Clear labels
+
+Placeholder text as helper only (never a replacement for labels)
+
+Accessible focus
+
+Validation messaging
+
+Icon Component
+
+Use SVG.
+
+Consistent stroke width.
+
+Avoid decorative icons without purpose.
+
+Icons should reinforce content rather than replace text.
+
+Section Header Component
+
+Every major section should include:
+
+Headline
+
+Supporting text (optional)
+
+Consistent spacing
+
+Consistent alignment
+
+Image Component
+
+Requirements
+
+Responsive
+
+Optimized
+
+Lazy loaded below the fold
+
+Width/height attributes
+
+Descriptive alt text
+
+Maintain aspect ratio
+
+Loading States
+
+Interactive components should provide feedback.
+
+Examples
+
+Form submission
+
+Gallery loading
+
+Map loading
+
+Image loading
+
+Skeleton loaders or subtle placeholders are preferred over spinners for content-heavy sections.
+
+Error States
+
+Provide clear messaging.
+
+Examples
+
+Form submission failed.
+
+Unable to load gallery.
+
+Map unavailable.
+
+Offer recovery actions where appropriate.
+
+Empty States
+
+Examples
+
+No gallery images
+
+No reviews
+
+No FAQs
+
+Display helpful messaging instead of blank sections.
+
+Component Naming Convention
+
+Use descriptive names:
+
+hero
+
+trust-bar
+
+service-card
+
+gallery-grid
+
+review-card
+
+faq-item
+
+contact-form
+
+cta-banner
+
+footer
+
+Avoid generic names such as:
+
+box1
+
+section2
+
+new-card
+
+container3
+Component Reuse Rules
+
+Every page must reuse approved components.
+
+Do not duplicate code or styling.
+
+When updates are needed, update the component—not individual instances.
+
+Accessibility Requirements
+
+Every interactive component must support:
+
+Keyboard navigation
+Focus indicators
+Screen reader compatibility
+Sufficient color contrast
+Appropriate ARIA attributes where necessary
+Touch targets ≥44×44px
+Component Freeze
+
+The following are frozen:
+
+Component inventory
+Component names
+Interaction patterns
+Accessibility behavior
+Responsive behavior
+Visual styling
+
+No component redesign is permitted during implementation.

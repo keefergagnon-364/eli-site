@@ -1,0 +1,85 @@
+/* Transparent logo treatment for the hero and global brand marks. */
+.brand img {
+  mix-blend-mode: normal;
+  filter: none;
+}
+
+.site-header .brand {
+  width: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.site-header .brand img {
+  width: 62px;
+  max-height: 58px;
+}
+
+.brand-wordmark {
+  color: #fff;
+  font: 600 1.45rem/.85 var(--serif);
+  letter-spacing: .06em;
+}
+
+.brand-wordmark small {
+  display: block;
+  margin-top: 7px;
+  color: #e2bc7a;
+  font: 700 .52rem/1 var(--sans);
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.hero-content {
+  position: relative;
+}
+
+.hero-logo {
+  position: absolute;
+  right: -3%;
+  bottom: 18px;
+  width: min(47vw, 545px);
+  height: auto;
+  filter: drop-shadow(0 24px 18px rgba(0, 0, 0, .24));
+  pointer-events: none;
+}
+
+.hero h1 { max-width: 610px; }
+.hero-copy { max-width: 535px; }
+
+.contact-layout.jobber-contact { grid-template-columns: 1fr .8fr; align-items: center; }
+
+.jobber-cta-panel {
+  background: #fffdf8;
+  color: var(--ink);
+  padding: 42px;
+  box-shadow: 0 18px 42px rgba(0, 0, 0, .16);
+}
+
+.jobber-cta-panel .eyebrow { margin-bottom: 12px; }
+.jobber-cta-panel h3 { margin: 0 0 12px; font: 600 2rem/1.08 var(--serif); }
+.jobber-cta-panel p:not(.eyebrow) { color: var(--muted); margin: 0 0 26px; }
+
+@media (max-width: 800px) {
+  .site-header .brand img { width: 49px; }
+  .brand-wordmark { font-size: 1.17rem; }
+
+  .hero-logo {
+    right: -4%;
+    bottom: 24px;
+    width: min(51vw, 360px);
+    opacity: .84;
+  }
+
+  .contact-layout.jobber-contact { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .hero-logo {
+    width: 69vw;
+    right: -11%;
+    bottom: 18px;
+    opacity: .35;
+  }
+}

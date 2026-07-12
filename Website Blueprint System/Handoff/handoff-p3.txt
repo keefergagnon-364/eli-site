@@ -1,0 +1,368 @@
+Production Handbook
+Part 3 — Complete Content & Messaging Specification
+
+Document Type: Content Implementation Specification
+
+Status: Design Freeze Approved
+
+Authority: This document defines the messaging, copy hierarchy, writing standards, trust framework, and conversion language for every page of the IVY Remodeling website.
+
+Purpose
+
+This document establishes how the website communicates with visitors.
+
+It is not intended to provide marketing ideas or alternate copy.
+
+It defines the approved messaging strategy and the rules that govern all written content throughout the website.
+
+The implementation team shall not rewrite or reinterpret the approved messaging.
+
+Core Brand Message
+
+Everything on the website should reinforce one central idea:
+
+Quality craftsmanship delivered honestly by a local contractor who genuinely cares about every project.
+
+Every section should support this message.
+
+If a paragraph, image, or feature does not reinforce this message, it should be reconsidered.
+
+Brand Voice
+
+The website should sound like a skilled craftsman speaking directly to a homeowner—not a salesperson.
+
+Tone
+Professional
+Honest
+Warm
+Respectful
+Confident
+Helpful
+Straightforward
+Avoid
+Pushy sales language
+Excessive superlatives ("best", "number one", etc.)
+Industry jargon without explanation
+Fear-based marketing
+Corporate buzzwords
+
+Visitors should feel they are talking with a trustworthy contractor, not reading an advertisement.
+
+Writing Principles
+
+Every piece of copy should follow these principles:
+
+1. Clarity First
+
+Explain services in plain language.
+
+Avoid unnecessary technical terminology.
+
+2. Benefits Before Features
+
+Instead of:
+
+We use pressure-treated lumber.
+
+Explain:
+
+We build decks designed to withstand Arizona's changing weather and provide years of reliable use.
+
+3. Customer-Focused
+
+Write about the customer's goals before discussing the company.
+
+Answer questions such as:
+
+What problem does this solve?
+Why should I care?
+How will this improve my home?
+4. Build Trust Gradually
+
+Do not rely on a single "trust section."
+
+Trust should accumulate throughout the website using:
+
+Photography
+Reviews
+Guarantees
+Experience
+Licensing
+Consistent messaging
+5. Encourage Action Naturally
+
+Calls-to-action should feel like the next logical step, not a sales pitch.
+
+Preferred wording:
+
+Request Your Free Estimate
+Let's Talk About Your Project
+Ready to Improve Your Home?
+Start Your Estimate Today
+
+Avoid aggressive CTAs such as:
+
+BUY NOW
+LIMITED TIME
+DON'T MISS OUT
+Homepage Messaging
+
+The homepage must answer four questions in order:
+
+1. Who are you?
+
+IVY Remodeling is a local, owner-operated remodeling company serving Arizona's White Mountains.
+
+2. What do you do?
+
+High-quality remodeling, decks, carpentry, painting, electrical work, handyman services, and custom home improvements.
+
+3. Why should I trust you?
+Licensed
+Insured
+Veteran-Owned
+10+ Years of Industry Experience
+One-Year Satisfaction Guarantee
+Personalized Service
+Quality Craftsmanship
+4. What should I do next?
+
+Request a free estimate or call directly.
+
+Every homepage section supports one of these questions.
+
+Hero Section Requirements
+
+The Hero has one job:
+
+Convince visitors to continue scrolling.
+
+It must communicate:
+
+Primary Headline
+
+A clear value proposition.
+
+No clever wording.
+
+No ambiguity.
+
+Supporting Copy
+
+Briefly explain:
+
+Services
+Service area
+Quality
+Experience
+Hero CTAs
+
+Primary:
+
+Request Your Free Estimate
+
+Secondary:
+
+Call Now
+
+Hero Trust Indicators
+
+Include:
+
+Licensed
+Insured
+Veteran-Owned
+10+ Years of Industry Experience
+
+These should appear immediately without requiring scrolling.
+
+Service Page Strategy
+
+Each service page follows the same structure.
+
+Hero
+Overview
+Benefits
+Process
+Project Gallery
+Why Choose IVY Remodeling
+FAQ
+CTA
+
+This consistency improves usability and simplifies maintenance.
+
+Service Descriptions
+
+Service descriptions should emphasize outcomes rather than tasks.
+
+For example:
+
+Instead of:
+
+We build decks.
+
+Use:
+
+Create an outdoor space where your family can relax, entertain, and enjoy Arizona's beautiful seasons.
+
+The emotional benefit should accompany the technical description.
+
+About Page Messaging
+
+The About page exists to build trust.
+
+It should answer:
+
+Who is Eli?
+Why did he start IVY Remodeling?
+What values guide the business?
+What makes his approach different?
+
+Avoid long autobiographies.
+
+Focus on the customer's confidence.
+
+Why Choose Us
+
+This section should reinforce the company's strongest differentiators:
+
+Owner-operated
+Veteran-Owned
+Licensed & Insured
+Honest Communication
+Detail-Oriented Craftsmanship
+Local Knowledge
+Satisfaction Guarantee
+
+Each point should explain why it benefits the customer.
+
+Gallery Messaging
+
+The gallery should function as proof rather than decoration.
+
+Every project should include:
+
+Project title
+Service type
+Brief description
+Optional location
+Before/After comparison when available
+
+Avoid generic captions such as "Project 1."
+
+Testimonials & Reviews
+
+Reviews must be authentic.
+
+Until enough customer reviews exist:
+
+Use clearly marked placeholders during development only.
+Replace placeholders before production where possible.
+
+Do not fabricate customer names or experiences.
+
+FAQ Strategy
+
+FAQs should address real concerns.
+
+Examples include:
+
+How long does a project take?
+Do you offer free estimates?
+Are you licensed and insured?
+What areas do you serve?
+What types of materials do you use?
+
+Answers should be concise and reassuring.
+
+Contact Page Messaging
+
+The Contact page should reduce friction.
+
+Communicate:
+
+Friendly invitation to reach out.
+Multiple contact methods.
+Clear expectations for response time.
+Simple estimate request process.
+
+The page should end with reassurance rather than urgency.
+
+Call-to-Action Rules
+
+CTAs should be consistent across the entire site.
+
+Primary:
+
+Request Your Free Estimate
+
+Secondary:
+
+Call Now
+
+Supporting:
+
+View Our Work
+Learn More
+Explore Our Services
+
+Do not introduce alternate CTA wording.
+
+Consistency improves recognition and conversion.
+
+Trust Framework
+
+Every page should include at least two trust elements.
+
+Examples:
+
+Review snippet
+Licensing badge
+Guarantee
+Experience statement
+Project photography
+Before/After comparison
+
+Trust should never depend on one dedicated page.
+
+Placeholder Content Policy
+
+Approved placeholders include:
+
+Stock project photography
+Stock owner portrait
+Placeholder review cards
+Temporary gallery images
+
+All placeholders must:
+
+Match the brand style.
+Be easy to replace.
+Never require layout changes.
+
+Every placeholder should be documented for future replacement.
+
+Content Consistency Rules
+
+The implementation team shall ensure:
+
+Service names remain identical throughout the site.
+CTA wording is consistent.
+Headings follow a logical hierarchy.
+Tone remains consistent.
+No contradictory messaging appears between pages.
+Content Freeze
+
+The following are frozen:
+
+Brand messaging
+Mission
+Vision
+Core Values
+USP
+CTA wording
+Service names
+Homepage messaging
+Trust messaging
+
+No content rewrites are permitted during implementation without client approval.

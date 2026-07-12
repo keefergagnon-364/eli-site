@@ -1,0 +1,496 @@
+Production Handbook
+Part 9 — Launch, Operations & Long-Term Maintenance
+
+Document Type: Launch & Operations Manual
+
+Status: Final Production Authorization
+
+Authority: This document governs the launch, operation, maintenance, monitoring, and future evolution of the IVY Remodeling website.
+
+Purpose
+
+The purpose of this document is to ensure the website remains:
+
+Reliable
+Secure
+Accurate
+Fast
+Search optimized
+Easy to maintain
+
+A website launch is not the end of the project.
+
+It is the beginning of continuous improvement.
+
+Launch Philosophy
+
+The website should never be launched simply because it appears complete.
+
+Launch occurs only after:
+
+Technical verification
+SEO verification
+Accessibility verification
+Performance verification
+Business verification
+
+Every launch decision should be evidence-based.
+
+Launch Checklist
+
+Before publishing, verify the following.
+
+Business Verification
+
+✓ Business name correct
+
+✓ Phone number correct
+
+✓ Email correct
+
+✓ Service areas verified
+
+✓ Services verified
+
+✓ Business hours confirmed
+
+✓ CTA wording approved
+
+✓ Contact form destination confirmed
+
+Branding Verification
+
+✓ Final logo
+
+✓ SVG logo
+
+✓ Favicon
+
+✓ Brand colors
+
+✓ Typography
+
+✓ Photography
+
+✓ Placeholder replacements completed (where available)
+
+SEO Verification
+
+✓ Unique page titles
+
+✓ Meta descriptions
+
+✓ Canonical URLs
+
+✓ robots.txt
+
+✓ sitemap.xml
+
+✓ Schema
+
+✓ Internal linking
+
+✓ Open Graph
+
+✓ Twitter Cards
+
+✓ Image ALT text
+
+Technical Verification
+
+✓ HTML validated
+
+✓ CSS validated
+
+✓ JavaScript functioning
+
+✓ Responsive layouts verified
+
+✓ Forms tested
+
+✓ Jobber integration verified
+
+✓ Google Maps verified
+
+Performance Verification
+
+Target Lighthouse Scores
+
+Performance
+
+95+
+
+Accessibility
+
+95+
+
+Best Practices
+
+95+
+
+SEO
+
+95+
+
+Core Web Vitals should meet Google's recommended thresholds.
+
+Accessibility Verification
+
+Confirm:
+
+Keyboard navigation
+Focus indicators
+Color contrast
+Form labels
+Semantic HTML
+Screen reader compatibility
+Touch targets
+
+Accessibility is a launch requirement.
+
+Analytics Configuration
+
+Install Google Analytics 4.
+
+Track at minimum:
+
+Page Views
+Quote Requests
+Phone Clicks
+Contact Form Submissions
+CTA Clicks
+Gallery Interaction
+Before/After Slider Interaction (optional)
+
+These metrics provide insight into visitor behavior and conversion performance.
+
+Search Console Configuration
+
+After launch:
+
+Verify property
+Submit sitemap
+Inspect homepage
+Inspect service pages
+Monitor indexing
+Monitor Core Web Vitals
+Resolve crawl errors promptly
+Google Business Profile
+
+Ensure the website and GBP reinforce one another.
+
+Verify:
+
+Website URL
+Categories
+Services
+Photos
+Description
+Contact information
+Service areas
+
+Develop a routine for requesting reviews after completed projects.
+
+Review Growth Strategy
+
+The website's trust improves over time.
+
+Implement a repeatable process:
+
+Complete project
+Follow up with customer
+Request Google review
+Add approved review to website (where appropriate)
+Update featured testimonials periodically
+
+Never fabricate reviews.
+
+Gallery Growth Strategy
+
+After every completed project:
+
+Capture before photos
+Capture progress photos
+Capture finished photos
+Compress images
+Add descriptive filenames
+Write captions
+Update gallery
+Add before/after comparisons when available
+
+The gallery should evolve continuously.
+
+Content Maintenance
+
+Review content quarterly.
+
+Check:
+
+Services
+Contact information
+Pricing references (if applicable)
+Business hours
+FAQs
+Guarantees
+Team information
+Service areas
+
+Update content as the business evolves.
+
+SEO Maintenance
+
+Monthly
+
+Review Search Console
+Monitor rankings
+Review click-through rates
+Check index coverage
+
+Quarterly
+
+Expand internal linking
+Add new project photography
+Refresh metadata where needed
+Evaluate keyword opportunities
+
+Annually
+
+Review entire SEO strategy
+Evaluate competitors
+Identify new service opportunities
+Security Maintenance
+
+Regularly verify:
+
+HTTPS
+
+Forms
+
+External links
+
+Analytics
+
+Search Console ownership
+
+Software updates (if applicable)
+
+Backups
+
+Never allow credentials to be embedded in source code.
+
+Backup Strategy
+
+Maintain:
+
+Daily automated backups (if supported by hosting)
+
+Manual backup before major updates
+
+Asset backups
+
+Repository backups
+
+Backups should be tested periodically to ensure recovery is possible.
+
+Documentation Standards
+
+Maintain documentation for:
+
+Site structure
+Component library
+Asset inventory
+Integrations
+Analytics configuration
+DNS records
+Domain information
+Hosting information
+
+Future developers should not need to reverse-engineer the project.
+
+Future Enhancement Roadmap
+
+The website architecture supports future additions without redesign.
+
+Examples:
+
+Phase 2
+Live Google Reviews
+Service Area Pages
+Expanded Gallery
+Owner Headshot
+Additional Project Photography
+Phase 3
+Educational Blog
+Seasonal Maintenance Guides
+Downloadable Resources
+Financing Information
+Customer Referral Program
+Phase 4
+Customer Portal
+Online Scheduling
+Careers Page
+Additional Locations
+Advanced Analytics Dashboard
+
+All enhancements should preserve the existing design system and architecture.
+
+Ownership & Responsibilities
+Business Owner
+
+Responsible for:
+
+Business information accuracy
+Project photography
+Customer reviews
+Service updates
+Approval of content changes
+Development Team
+
+Responsible for:
+
+Technical implementation
+Bug fixes
+Performance optimization
+Accessibility compliance
+Security updates
+Marketing / SEO
+
+Responsible for:
+
+Local SEO
+Metadata updates
+GBP optimization
+Keyword monitoring
+Content growth
+
+Responsibilities should remain clearly separated.
+
+Change Management
+
+Any future modification should be classified as one of the following:
+
+Maintenance
+
+Bug fixes
+
+Content updates
+
+Review additions
+
+Image replacements
+
+Enhancement
+
+New features
+
+New service pages
+
+New integrations
+
+SEO expansion
+
+Scope Change
+
+Navigation changes
+
+Design changes
+
+Architecture changes
+
+Branding changes
+
+Major functionality additions
+
+Scope changes require review before implementation.
+
+Final Production Rules
+
+The development team shall:
+
+Build exactly what has been approved
+Preserve the design system
+Follow accessibility standards
+Meet performance targets
+Document any deviations
+Never invent missing business information
+
+If information is missing:
+
+Stop. Document the issue. Request clarification.
+
+Never guess.
+
+Final Build Authorization
+Project Name
+
+IVY Remodeling Website
+
+Planning Status
+
+Completed
+
+Review Status
+
+Completed
+
+Design Freeze
+
+Approved
+
+Production Approval
+
+Approved for Development
+
+Confidence Score
+
+99%
+
+Remaining Non-Blocking Tasks
+Generate SVG logo
+Generate favicon package
+Configure Analytics
+Verify Search Console
+Connect production domain
+Replace placeholder photography over time
+Continue collecting Google reviews
+
+These tasks do not prevent development.
+
+Source of Truth
+
+From this point forward:
+
+This Production Handbook supersedes:
+
+Discovery documents
+Strategy documents
+Scope documents
+Review documents
+Planning prompts
+
+If a conflict exists between earlier planning documents and this handbook:
+
+Follow this handbook.
+
+Final Instruction to the Production Team
+
+You are an implementation team.
+
+You are not responsible for:
+
+Business strategy
+Marketing strategy
+Brand strategy
+Information architecture
+UX planning
+SEO planning
+
+Those decisions have already been made.
+
+Your responsibility is to implement the approved website faithfully, efficiently, and professionally.
+
+Build exactly what has been documented.
+
+Nothing more.
+
+Nothing less.

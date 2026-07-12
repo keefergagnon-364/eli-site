@@ -1,0 +1,557 @@
+Production Handbook
+Part 2 — Website Architecture & User Experience Blueprint
+
+Document Type: Production Implementation Specification
+
+Status: Design Freeze Approved
+
+Authority: This document defines the complete architecture of the IVY Remodeling website. Development must follow this specification exactly.
+
+Purpose
+
+This document defines the structure, hierarchy, navigation, and user experience of the website.
+
+It explains:
+
+What pages exist
+How users move through the website
+What every page must accomplish
+How visitors become customers
+How every section supports conversion
+
+This is not a design document.
+
+This is the architectural blueprint.
+
+Website Objectives
+
+The website must accomplish five objectives in this order.
+
+1. Immediately Explain
+
+Within five seconds visitors should understand:
+
+Who IVY Remodeling is
+What they do
+Where they work
+
+Visitors should never wonder:
+
+"What kind of company is this?"
+
+2. Build Trust
+
+Visitors should quickly discover evidence that IVY Remodeling is trustworthy.
+
+Trust should never depend on one section.
+
+Instead, trust should appear naturally throughout the experience.
+
+3. Showcase Craftsmanship
+
+Visitors should repeatedly encounter examples of quality work.
+
+Project photography should become the strongest salesperson on the website.
+
+4. Reduce Hesitation
+
+Every common customer concern should be answered before the visitor asks it.
+
+Examples:
+
+Licensed?
+Insured?
+Experienced?
+Local?
+Can I trust them?
+What do previous customers say?
+5. Convert Visitors
+
+Every page should naturally guide users toward requesting an estimate.
+
+No page should exist without a conversion opportunity.
+
+Information Architecture
+
+The website uses a shallow architecture.
+
+Maximum navigation depth:
+
+Three clicks
+
+Users should never feel lost.
+
+Primary Navigation
+
+Desktop Navigation
+
+Home
+
+Services
+
+Gallery
+
+About
+
+Contact
+
+This navigation is frozen.
+
+No additional top-level items should be added.
+
+Mobile Navigation
+
+The mobile navigation mirrors desktop.
+
+Include:
+
+Large tap targets
+Slide-out menu
+Sticky Call button
+Sticky Estimate button
+
+The mobile experience receives equal priority to desktop.
+
+Footer Navigation
+
+Footer should include:
+
+Company
+About
+Contact
+Gallery
+Services
+Deck Construction
+Remodeling
+Carpentry
+Painting
+Electrical
+Handyman
+Woodpecker Repair
+Legal
+Privacy Policy
+Contact
+
+Phone
+
+Email
+
+Business Hours
+
+Service Area
+
+Site Map
+Home
+│
+├── About
+│
+├── Services
+│   ├── Decks
+│   ├── Remodeling
+│   ├── Carpentry
+│   ├── Painting
+│   ├── Electrical
+│   ├── Handyman
+│   └── Woodpecker Repair
+│
+├── Gallery
+│
+├── Reviews
+│
+├── Contact
+│
+├── Privacy Policy
+│
+└── 404
+
+Future expansion:
+
+Service Areas
+
+Blog
+
+Financing
+
+Maintenance Guides
+
+Future pages should not affect the current architecture.
+
+Homepage Blueprint
+
+The homepage serves as the primary sales page.
+
+Every section exists for a specific psychological purpose.
+
+Section 1
+Sticky Header
+
+Purpose:
+
+Navigation
+
+Immediate contact access
+
+Brand recognition
+
+Requirements:
+
+Transparent over hero
+
+Solid on scroll
+
+Mobile responsive
+
+Section 2
+Hero
+
+Purpose:
+
+Answer immediately:
+
+Who?
+
+What?
+
+Where?
+
+Hero should include:
+
+Headline
+
+Supporting copy
+
+Primary CTA
+
+Secondary CTA
+
+Professional hero image
+
+Trust indicators
+
+Section 3
+Trust Bar
+
+Purpose:
+
+Reduce hesitation.
+
+Include:
+
+Licensed
+
+Insured
+
+Veteran-Owned
+
+Locally Owned
+
+10+ Years of Industry Experience
+
+One-Year Satisfaction Guarantee
+
+Free Estimates
+
+Section 4
+Featured Services
+
+Purpose:
+
+Quickly demonstrate capabilities.
+
+Show only the highest-demand services.
+
+Each card links to its dedicated service page.
+
+Section 5
+Why Choose IVY Remodeling
+
+Purpose:
+
+Differentiate from competitors.
+
+Focus on:
+
+Craftsmanship
+
+Communication
+
+Quality
+
+Personal service
+
+Guarantee
+
+Section 6
+About Eli
+
+Purpose:
+
+Humanize the business.
+
+Customers hire people before companies.
+
+Content should include:
+
+Owner story
+
+Values
+
+Approach
+
+Experience
+
+Section 7
+Before / After Slider
+
+Purpose:
+
+Provide visual proof.
+
+Requirements:
+
+Desktop drag
+
+Mobile swipe
+
+Accessible
+
+Fast loading
+
+Replaceable images
+
+Section 8
+Featured Projects
+
+Purpose:
+
+Demonstrate capability.
+
+Gallery should:
+
+Open lightbox
+
+Allow filtering
+
+Load quickly
+
+Lazy load images
+
+Section 9
+Reviews
+
+Purpose:
+
+Provide third-party validation.
+
+Initially:
+
+Use approved placeholders.
+
+Future:
+
+Replace with authentic Google reviews.
+
+Section 10
+FAQ
+
+Purpose:
+
+Remove objections.
+
+Accordion style.
+
+Accessible.
+
+Keyboard navigable.
+
+Section 11
+Contact
+
+Purpose:
+
+Convert.
+
+Should include:
+
+Contact information
+
+Estimate form
+
+Jobber integration
+
+Map
+
+Service Area
+
+Section 12
+Footer
+
+Purpose:
+
+Complete navigation.
+
+Trust.
+
+Legal.
+
+Brand reinforcement.
+
+User Journey
+
+The visitor journey should feel natural.
+
+Arrival
+
+↓
+
+Understand
+
+↓
+
+Trust
+
+↓
+
+Evidence
+
+↓
+
+Confidence
+
+↓
+
+Estimate Request
+
+Every page should reinforce this progression.
+
+Conversion Architecture
+
+The website has two primary conversion paths.
+
+Path 1
+
+Visitor
+
+↓
+
+Reads homepage
+
+↓
+
+Trust established
+
+↓
+
+Estimate form
+
+Path 2
+
+Google Search
+
+↓
+
+Service Page
+
+↓
+
+Gallery
+
+↓
+
+Contact
+
+Internal Linking Strategy
+
+Every page should naturally connect to related content.
+
+Examples:
+
+Service Page
+
+↓
+
+Gallery
+
+↓
+
+Contact
+
+↓
+
+Related Services
+
+About
+
+↓
+
+Gallery
+
+↓
+
+Contact
+
+Gallery
+
+↓
+
+Relevant Service
+
+↓
+
+Estimate Form
+
+FAQ
+
+↓
+
+Service Page
+
+↓
+
+Estimate Form
+
+No page should become a dead end.
+
+Mobile Experience
+
+The website should be designed mobile-first.
+
+Requirements:
+
+Sticky call button
+Sticky estimate button
+Large tap targets (minimum 44×44px)
+Responsive images
+Thumb-friendly navigation
+No horizontal scrolling
+Optimized spacing
+Fast-loading galleries
+Touch-enabled before/after slider
+Accessibility Principles
+
+The architecture must support:
+
+Semantic HTML
+Proper heading hierarchy (H1 → H2 → H3)
+Keyboard navigation
+Focus indicators
+Accessible forms
+Screen reader compatibility
+Descriptive link text
+High color contrast
+
+Accessibility is a core requirement, not an optional enhancement.
+
+Architecture Rules
+
+The development team must not:
+
+Add new top-level pages
+Remove approved sections
+Rearrange homepage order
+Change navigation labels
+Hide conversion opportunities
+Replace approved CTAs
+Introduce unnecessary navigation depth
+
+Any structural changes require approval through a formal scope revision.

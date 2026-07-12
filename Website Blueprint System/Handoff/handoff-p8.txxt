@@ -1,0 +1,670 @@
+Production Handbook
+Part 8 — Build Process, Quality Assurance & Production Rules
+
+Document Type: Development Operations Manual
+
+Status: Design Freeze Approved
+
+Authority: This document governs how the website is implemented, reviewed, tested, deployed, and maintained. It establishes the production workflow and quality standards for the project.
+
+Purpose
+
+The purpose of this document is to ensure the website is built using a structured, repeatable process rather than an ad hoc development approach.
+
+The implementation team shall:
+
+Follow a consistent workflow
+Verify quality continuously
+Avoid unnecessary rework
+Protect performance
+Preserve the approved design
+Maintain code quality
+Development Philosophy
+
+The website should be developed as if it will be maintained for many years.
+
+Priorities:
+
+Stability
+Readability
+Maintainability
+Performance
+Accessibility
+Scalability
+
+Code should always favor clarity over cleverness.
+
+Production Workflow
+
+Development shall proceed in the following order.
+
+Phase 1
+
+Project Initialization
+
+Tasks
+
+Create repository
+
+Create folder structure
+
+Configure development environment
+
+Import assets
+
+Verify design system
+
+Phase 2
+
+Foundation
+
+Tasks
+
+Build HTML structure
+
+Configure CSS architecture
+
+Implement typography
+
+Create layout system
+
+Configure variables
+
+No JavaScript at this stage.
+
+Phase 3
+
+Core Components
+
+Build:
+
+Header
+
+Navigation
+
+Buttons
+
+Cards
+
+Forms
+
+Footer
+
+Trust Bar
+
+Section headers
+
+These become the reusable foundation for every page.
+
+Phase 4
+
+Homepage
+
+Build homepage first.
+
+Implement sections in approved order.
+
+Do not begin secondary pages until homepage structure is complete.
+
+Phase 5
+
+Service Pages
+
+Build reusable service template.
+
+Populate:
+
+Decks
+
+Remodeling
+
+Painting
+
+Electrical
+
+Handyman
+
+Woodworking
+
+Woodpecker Repair
+
+Maintain identical structure across services.
+
+Phase 6
+
+Supporting Pages
+
+Gallery
+
+About
+
+Reviews
+
+Contact
+
+Privacy Policy
+
+404
+
+Phase 7
+
+Interactive Features
+
+Implement:
+
+Before/After Slider
+
+Gallery filtering
+
+Lightbox
+
+FAQ accordion
+
+Navigation animation
+
+Form validation
+
+Progressive enhancement should be used wherever possible.
+
+Phase 8
+
+SEO Implementation
+
+Configure:
+
+Metadata
+
+Schema
+
+Robots
+
+Sitemap
+
+Open Graph
+
+Canonical URLs
+
+Structured headings
+
+Internal links
+
+Phase 9
+
+Optimization
+
+Compress assets
+
+Optimize CSS
+
+Optimize JavaScript
+
+Optimize images
+
+Review Core Web Vitals
+
+Run Lighthouse
+
+Phase 10
+
+Final QA
+
+Accessibility
+
+Responsive review
+
+Browser testing
+
+Performance review
+
+Broken links
+
+Forms
+
+Launch checklist
+
+Coding Standards
+
+Every file should be:
+
+Readable
+
+Consistent
+
+Modular
+
+Commented where necessary
+
+No dead code
+
+No unused assets
+
+No duplicate functionality
+
+HTML Standards
+
+Requirements
+
+Semantic HTML
+
+One H1 per page
+
+Logical heading hierarchy
+
+Accessible forms
+
+Descriptive buttons
+
+No inline styling
+
+No presentational markup
+
+CSS Standards
+
+Requirements
+
+Reusable classes
+
+Component-based organization
+
+No duplicated selectors
+
+Consistent spacing
+
+Logical naming
+
+Avoid excessive specificity.
+
+JavaScript Standards
+
+JavaScript should enhance the experience—not create dependencies.
+
+Requirements
+
+Modular
+
+Reusable
+
+Graceful degradation
+
+Error handling
+
+Minimal global scope
+
+Avoid blocking rendering.
+
+Version Control
+
+Every meaningful feature should be committed independently.
+
+Examples
+
+feat: create responsive navigation
+
+feat: implement gallery component
+
+fix: improve form accessibility
+
+perf: optimize hero image loading
+
+Commit frequently with descriptive messages.
+
+Code Review Standards
+
+Every completed feature should be reviewed for:
+
+Readability
+Accessibility
+Performance
+Browser compatibility
+Consistency with design system
+Mobile behavior
+
+No feature should move forward without review.
+
+Testing Strategy
+
+Every page should be tested for:
+
+Functionality
+
+Visual consistency
+
+Accessibility
+
+Performance
+
+SEO
+
+Responsive behavior
+
+Cross-browser compatibility
+
+Responsive Testing
+
+Minimum widths
+
+320px
+
+375px
+
+390px
+
+414px
+
+768px
+
+1024px
+
+1280px
+
+1440px
+
+1920px
+
+Verify:
+
+Navigation
+
+Forms
+
+Gallery
+
+Typography
+
+Buttons
+
+Spacing
+
+No horizontal scrolling.
+
+Browser Testing
+
+Required
+
+Chrome
+
+Edge
+
+Firefox
+
+Safari
+
+Mobile Chrome
+
+Mobile Safari
+
+Graceful degradation is acceptable for non-critical visual enhancements.
+
+Accessibility Testing
+
+Verify
+
+Keyboard navigation
+
+Focus order
+
+Focus visibility
+
+Screen reader compatibility
+
+Color contrast
+
+Touch targets
+
+Form labels
+
+ARIA usage where appropriate
+
+No inaccessible interactions.
+
+Performance Testing
+
+Measure
+
+Core Web Vitals
+
+Image loading
+
+JavaScript execution
+
+CSS size
+
+Font loading
+
+Animation performance
+
+Network requests
+
+Optimize before launch.
+
+Lighthouse Requirements
+
+Minimum acceptable scores
+
+Performance
+
+95+
+
+Accessibility
+
+95+
+
+Best Practices
+
+95+
+
+SEO
+
+95+
+
+These are launch requirements, not stretch goals.
+
+Forms Testing
+
+Verify
+
+Validation
+
+Submission
+
+Confirmation
+
+Spam protection
+
+Mobile usability
+
+Keyboard navigation
+
+Required fields
+
+No form should reach production untested.
+
+Link Validation
+
+Verify
+
+Navigation links
+
+Footer links
+
+Buttons
+
+Service links
+
+Gallery links
+
+Contact links
+
+External links
+
+No broken links permitted.
+
+Image Validation
+
+Verify
+
+Responsive sizes
+
+Compression
+
+Alt text
+
+Captions
+
+Lazy loading
+
+No distorted images.
+
+Placeholder Verification
+
+Before launch verify
+
+Every placeholder documented
+
+Placeholder images identified
+
+Placeholder reviews removed or clearly approved
+
+Owner portrait updated if available
+
+No accidental placeholder content remains.
+
+Deployment Process
+
+Before deployment
+
+Run final QA
+
+Verify analytics
+
+Verify forms
+
+Verify Search Console
+
+Generate sitemap
+
+Generate robots.txt
+
+Verify favicon
+
+Confirm legal pages
+
+Confirm contact information
+
+Only then deploy.
+
+Rollback Strategy
+
+If critical issues are discovered after deployment
+
+Restore previous version
+
+Document issue
+
+Resolve locally
+
+Re-test
+
+Redeploy
+
+Never hotfix directly on production.
+
+Post-Launch Monitoring
+
+Monitor
+
+404 errors
+
+Core Web Vitals
+
+Search Console
+
+Analytics
+
+Quote requests
+
+Phone clicks
+
+Form failures
+
+Review these metrics regularly during the first 30 days.
+
+Maintenance Schedule
+
+Monthly
+
+Review broken links
+
+Update plugins (if applicable)
+
+Review analytics
+
+Optimize images
+
+Check forms
+
+Quarterly
+
+Review SEO
+
+Refresh project gallery
+
+Add new reviews
+
+Evaluate performance
+
+Annually
+
+Review design consistency
+
+Review content accuracy
+
+Review legal pages
+
+Evaluate future improvements
+
+Build Rules
+
+The implementation team must not:
+
+Change the navigation
+Rewrite approved messaging
+Modify the design system
+Introduce new page layouts
+Replace approved components
+Remove trust elements
+Change the CTA wording
+Add unapproved animations
+Introduce unnecessary libraries
+Ignore accessibility requirements
+
+If a change appears necessary, it must be documented and approved before implementation.
+
+Production Freeze
+
+The following are frozen:
+
+Site architecture
+Navigation
+Design system
+Component library
+SEO strategy
+Technical architecture
+Asset structure
+Messaging
+Conversion strategy
+
+The implementation phase is not a redesign phase.
+
+Production Success Criteria
+
+The website is considered complete only when:
+
+Every approved page has been built
+Every component matches the approved design system
+All interactive features function correctly
+Accessibility requirements are satisfied
+Performance targets are achieved
+SEO implementation is complete
+QA checklist passes without critical issues
+Client approval is obtained

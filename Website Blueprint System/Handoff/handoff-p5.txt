@@ -1,0 +1,617 @@
+Production Handbook
+Part 5 — SEO, Technical Architecture & Development Standards
+
+Document Type: Engineering & Implementation Specification
+
+Status: Design Freeze Approved
+
+Authority: This document defines the technical standards, SEO implementation, coding architecture, performance requirements, and development rules for the IVY Remodeling website.
+
+Purpose
+
+The purpose of this document is to define how the website must be built, not how it should look.
+
+The production team shall follow these standards to ensure:
+
+Maintainability
+Performance
+Accessibility
+SEO
+Scalability
+Code consistency
+
+This website is intended to be production-quality, not a prototype.
+
+Development Philosophy
+
+The website should prioritize:
+
+Maintainability
+Performance
+Accessibility
+SEO
+Progressive Enhancement
+Scalability
+
+Fancy effects should never come at the expense of usability or performance.
+
+Technology Stack
+
+Approved technologies:
+
+HTML
+
+HTML5
+
+Semantic HTML only.
+
+Avoid unnecessary wrapper elements.
+
+Every section should use the appropriate semantic element.
+
+Examples:
+
+<header>
+<main>
+<section>
+<article>
+<aside>
+<footer>
+<nav>
+CSS
+
+Vanilla CSS
+
+No CSS frameworks.
+
+No Bootstrap.
+
+No Tailwind.
+
+No UI libraries.
+
+Reason:
+
+Maintain full control over performance, styling, and future maintenance.
+
+JavaScript
+
+Vanilla JavaScript
+
+Use ES6 modules where appropriate.
+
+Avoid unnecessary dependencies.
+
+Every script should have a clear responsibility.
+
+CSS Architecture
+
+Recommended structure:
+
+/assets/css/
+
+variables.css
+reset.css
+base.css
+typography.css
+layout.css
+navigation.css
+components.css
+forms.css
+gallery.css
+animations.css
+utilities.css
+responsive.css
+CSS Philosophy
+
+CSS should follow these principles:
+
+Mobile-first
+Component-based
+Reusable
+Organized
+Predictable
+
+Avoid:
+
+Deep selector nesting
+!important
+Inline styles
+Duplicated rules
+JavaScript Architecture
+
+Recommended structure:
+
+/assets/js/
+
+app.js
+navigation.js
+gallery.js
+before-after.js
+faq.js
+forms.js
+animations.js
+utils.js
+
+Each module should have a single responsibility.
+
+File Structure
+ivy-remodeling/
+
+index.html
+
+about/
+
+services/
+    decks/
+    remodeling/
+    carpentry/
+    painting/
+    electrical/
+    handyman/
+    woodpecker-repair/
+
+gallery/
+
+reviews/
+
+contact/
+
+privacy-policy/
+
+404.html
+
+assets/
+    css/
+    js/
+    images/
+        hero/
+        gallery/
+        before-after/
+        services/
+        placeholders/
+        icons/
+    fonts/
+    icons/
+
+robots.txt
+sitemap.xml
+favicon.ico
+site.webmanifest
+Naming Conventions
+
+Use:
+
+lowercase
+hyphens
+descriptive names
+
+Examples:
+
+deck-builder-show-low.html
+
+before-after-slider.js
+
+trust-card.css
+
+Avoid:
+
+page1.html
+
+new.css
+
+style2.css
+Image Standards
+
+Preferred formats:
+
+WebP
+
+SVG
+
+PNG
+
+JPEG (only when appropriate)
+
+Maximum image sizes:
+
+Hero
+
+≈ 250–400 KB optimized
+
+Gallery
+
+≈ 150–250 KB
+
+Icons
+
+SVG
+
+Logo
+
+SVG preferred
+
+Fallback PNG
+
+All images require:
+
+descriptive filenames
+alt text
+lazy loading (except above-the-fold hero)
+width/height attributes to reduce layout shift
+SEO Architecture
+
+The website shall use:
+
+One H1 per page
+
+Logical heading hierarchy
+
+Unique titles
+
+Unique meta descriptions
+
+Clean URLs
+
+Schema
+
+Canonical URLs
+
+Open Graph
+
+Twitter Cards
+
+robots.txt
+
+sitemap.xml
+
+URL Structure
+
+Homepage
+
+/
+
+Services
+
+/services/decks/
+
+/services/remodeling/
+
+/services/painting/
+
+Gallery
+
+/gallery/
+
+About
+
+/about/
+
+Contact
+
+/contact/
+
+Avoid query-string URLs for primary content.
+
+Metadata Standards
+
+Every page requires:
+
+Unique Title
+
+Unique Meta Description
+
+Canonical URL
+
+Open Graph Image
+
+Twitter Card
+
+Favicon
+
+Structured Data
+
+Schema Requirements
+
+Implement:
+
+LocalBusiness
+
+Organization
+
+Service
+
+BreadcrumbList
+
+FAQPage
+
+ImageObject
+
+WebSite
+
+WebPage
+
+Where appropriate, use JSON-LD for structured data.
+
+Internal Linking Rules
+
+Every page should link to:
+
+Related Service
+
+Gallery
+
+Contact
+
+About
+
+Relevant FAQ
+
+Avoid orphaned pages.
+
+Every page should be reachable within three clicks.
+
+Local SEO Standards
+
+Target cities:
+
+Show Low
+
+Pinetop-Lakeside
+
+Snowflake
+
+Taylor
+
+Greer
+
+Eagar
+
+Springerville
+
+St. Johns
+
+Avoid creating duplicate city pages with only the location name changed.
+
+Each location page should contain unique, valuable information if added in the future.
+
+Forms
+
+Primary estimate form:
+
+Fields:
+
+Name
+Phone
+Email
+City
+Service Needed
+Project Description
+Preferred Contact Method
+
+Future field:
+
+Image Upload
+
+Validation:
+
+Client-side
+
+Server-side (if applicable)
+
+Accessible error messaging
+
+Spam protection (e.g., honeypot and/or CAPTCHA)
+
+Confirmation message
+
+Jobber Integration
+
+Integrate the approved Jobber quote request process.
+
+Requirements:
+
+Preserve branding where possible
+Open in new tab only if embedding is not feasible
+Provide clear confirmation after submission
+Google Maps
+
+Embed an interactive map on the Contact page.
+
+Optimize for performance by loading it only when needed if practical.
+
+Performance Budget
+
+Target Core Web Vitals:
+
+Largest Contentful Paint (LCP): < 2.5 s
+
+Interaction to Next Paint (INP): < 200 ms
+
+Cumulative Layout Shift (CLS): < 0.1
+
+Lighthouse Targets
+
+Performance
+
+95+
+
+Accessibility
+
+95+
+
+Best Practices
+
+95+
+
+SEO
+
+95+
+
+These are minimum acceptable targets.
+
+Accessibility Requirements
+
+Meet WCAG 2.2 AA.
+
+Include:
+
+Semantic HTML
+
+Keyboard navigation
+
+Visible focus states
+
+Descriptive labels
+
+Accessible forms
+
+Screen-reader compatibility
+
+Proper heading hierarchy
+
+No keyboard traps
+
+Meaningful alternative text
+
+Browser Support
+
+Fully support:
+
+Chrome
+
+Edge
+
+Firefox
+
+Safari
+
+Mobile Chrome
+
+Mobile Safari
+
+Graceful degradation for older browsers.
+
+Security
+
+Require:
+
+HTTPS
+
+Secure external links
+
+Protected forms
+
+No exposed API keys
+
+Input validation
+
+Reasonable Content Security Policy (CSP)
+
+Analytics
+
+Install:
+
+Google Analytics 4
+
+Configure:
+
+Quote Request event
+Phone Click event
+Contact Form Submission
+Gallery Interaction (optional)
+Before/After Slider Interaction (optional)
+Search Console
+
+Configure:
+
+Property verification
+
+Submit sitemap.xml
+
+Monitor:
+
+Index coverage
+Core Web Vitals
+Search performance
+Google Business Profile
+
+Ensure:
+
+Correct NAP
+
+Website URL
+
+Categories
+
+Services
+
+Photos
+
+Regular updates
+
+Review management process
+
+Code Quality Standards
+
+The codebase should be:
+
+Readable
+
+Modular
+
+Documented where necessary
+
+Consistent
+
+Avoid unnecessary abstraction.
+
+Favor clarity over cleverness.
+
+Git Standards
+
+Recommended branch strategy:
+
+main
+
+develop
+
+feature/*
+bugfix/*
+hotfix/*
+
+Use meaningful commit messages, for example:
+
+feat: add before/after comparison slider
+
+fix: improve mobile navigation accessibility
+
+perf: optimize hero image loading
+Future Scalability
+
+The architecture should support:
+
+Additional service pages
+New service areas
+Blog
+Careers
+Financing
+Customer portal (future)
+Additional integrations
+
+without requiring a redesign.
+
+Technical Freeze
+
+The following are frozen:
+
+Technology stack
+Folder structure
+CSS architecture
+JavaScript architecture
+SEO strategy
+Performance targets
+Accessibility standards
+Development philosophy
+
+No architectural changes are permitted without a formal scope revision.

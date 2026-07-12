@@ -1,0 +1,574 @@
+Production Handbook
+Part 4 — Visual Design System & Component Library
+
+Document Type: Visual Implementation Specification
+
+Status: Design Freeze Approved
+
+Authority: This document defines the visual identity, UI system, reusable components, responsive behavior, animation standards, and accessibility rules for the IVY Remodeling website.
+
+Purpose
+
+The purpose of this document is to eliminate subjective design decisions during implementation.
+
+The development team is responsible for implementing the approved visual system—not designing a new one.
+
+Every page should feel like it belongs to the same website.
+
+Every component should be reusable.
+
+Consistency is more important than creativity.
+
+Overall Design Philosophy
+
+The website should communicate one impression above everything else:
+
+Professional craftsmanship with an approachable, local personality.
+
+Visitors should immediately feel that IVY Remodeling is:
+
+Experienced
+Trustworthy
+Detail-oriented
+Skilled
+Honest
+Premium without being luxurious
+
+The design should never feel:
+
+Corporate
+Cold
+Flashy
+Over-designed
+Cheap
+Template-based
+Visual Personality
+
+If the design were a physical space, it would resemble:
+
+A well-built custom cabin
+A professionally crafted workshop
+A modern mountain home
+Natural wood textures
+Clean architectural lines
+Warm lighting
+Organized tools
+Quality materials
+
+Every design decision should reinforce this feeling.
+
+Color System
+Primary Color
+
+Forest Green
+
+Purpose:
+
+Branding
+Primary buttons
+Links
+Icons
+Trust elements
+
+This color represents:
+
+Nature
+Growth
+Stability
+Dependability
+Secondary Color
+
+Ivory
+
+Purpose:
+
+Backgrounds
+Section spacing
+Cards
+Page breathing room
+
+The background should feel warm rather than bright white.
+
+Accent Color
+
+Natural Wood Brown
+
+Purpose:
+
+Decorative elements
+Icons
+Dividers
+Subtle highlights
+
+Accent colors should never compete with primary CTAs.
+
+Neutral Colors
+
+Light Gray
+
+Purpose:
+
+Borders
+
+Cards
+
+Secondary backgrounds
+
+Charcoal
+
+Purpose:
+
+Body text
+
+Navigation
+
+Headings when appropriate
+
+Color Usage Rules
+
+Forest Green should dominate.
+
+Ivory should provide breathing room.
+
+Wood Brown should appear sparingly.
+
+Bright colors should never distract from content.
+
+The website should remain calm and timeless.
+
+Typography
+Heading Font
+
+Playfair Display
+
+Used for:
+
+H1
+H2
+H3
+Hero headlines
+Section titles
+
+Purpose:
+
+Communicate craftsmanship and professionalism.
+
+Body Font
+
+Inter
+
+Used for:
+
+Paragraphs
+Navigation
+Forms
+Buttons
+Lists
+Captions
+
+Purpose:
+
+Maximum readability.
+
+Typography Scale
+
+H1
+
+Largest text.
+
+One per page.
+
+H2
+
+Major section headings.
+
+H3
+
+Component headings.
+
+Body
+
+Comfortable reading.
+
+Approximately 65–80 characters per line.
+
+Small Text
+
+Captions
+
+Helper text
+
+Form descriptions
+
+Typography Rules
+
+Never center long paragraphs.
+
+Avoid large walls of text.
+
+Maintain generous line height.
+
+Keep paragraph widths readable.
+
+Avoid decorative fonts.
+
+Spacing System
+
+Whitespace is intentional.
+
+It creates professionalism.
+
+Adopt a consistent spacing scale (e.g., 8px base unit) so margins, padding, and component gaps remain proportional throughout the site.
+
+Pages should breathe.
+
+Avoid crowded layouts.
+
+Layout System
+
+Maximum content width:
+
+Approximately 1200–1400px.
+
+Sections should alternate subtly using:
+
+Ivory
+White
+Light neutral backgrounds
+
+Large imagery should break up text.
+
+Button System
+Primary Button
+
+Forest Green background
+
+Ivory text
+
+Rounded corners
+
+Clear hover state
+
+Subtle elevation
+
+Used for:
+
+Request Your Free Estimate
+
+Secondary Button
+
+Transparent
+
+Forest Green border
+
+Forest Green text
+
+Hover:
+
+Solid Forest Green
+
+Text Links
+
+Underlined on hover.
+
+Accessible focus state.
+
+Card Components
+
+All cards should share a common design language.
+
+Characteristics:
+
+Rounded corners
+Soft shadows
+Large padding
+Consistent spacing
+Smooth hover elevation
+Clear hierarchy
+
+Examples:
+
+Service Cards
+Review Cards
+Trust Cards
+Gallery Cards
+Form Design
+
+Forms should feel approachable.
+
+Requirements:
+
+Large labels
+
+Visible validation
+
+Accessible focus
+
+Large tap targets
+
+Minimal required fields
+
+Friendly helper text
+
+Submission confirmation
+
+Never overwhelm users with unnecessary inputs.
+
+Icons
+
+Use simple SVG icons.
+
+Preferred style:
+
+Outline
+Consistent stroke width
+Minimal detail
+
+Avoid:
+
+3D icons
+
+Cartoon icons
+
+Gradient icons
+
+Clip art
+
+Photography Style
+
+Photography is one of the most important trust elements.
+
+Images should emphasize:
+
+Real craftsmanship
+Completed projects
+Work in progress
+Natural lighting
+Authentic environments
+
+Avoid:
+
+Obvious stock imagery whenever real project photos are available.
+
+Placeholder Photography Rules
+
+Approved placeholders:
+
+Arizona homes
+
+Deck construction
+
+Interior remodeling
+
+Custom carpentry
+
+Owner portrait
+
+Requirements:
+
+High resolution
+
+Consistent lighting
+
+Natural color grading
+
+Replaceable without redesign
+
+Before / After Slider
+
+This is a signature feature.
+
+Requirements:
+
+Desktop drag
+
+Touch swipe
+
+Smooth movement
+
+Accessible keyboard controls where practical
+
+Fast loading
+
+Lazy-loaded images
+
+Graceful fallback if JavaScript is unavailable (e.g., stacked images)
+
+Gallery
+
+Gallery should use:
+
+Responsive masonry or balanced grid
+
+Lightbox
+
+Lazy loading
+
+Filtering by service
+
+Fast image loading
+
+FAQ Accordion
+
+Requirements:
+
+Accessible
+
+Keyboard navigable
+
+Smooth animation
+
+State indicators
+
+No excessive animation
+
+Animations
+
+Animations should support usability.
+
+Allowed:
+
+Fade
+
+Slide
+
+Hover elevation
+
+Button feedback
+
+Accordion transitions
+
+Scroll reveal
+
+Not allowed:
+
+Autoplay motion
+
+Parallax
+
+Flashing effects
+
+Large entrance animations
+
+Animation should never delay content visibility.
+
+Responsive Design
+
+Breakpoints should support:
+
+Desktop
+
+Laptop
+
+Tablet
+
+Large phones
+
+Small phones
+
+Layout should adapt naturally without creating horizontal scrolling.
+
+Navigation should collapse gracefully.
+
+Cards should stack cleanly.
+
+Forms should remain easy to complete.
+
+Accessibility Standards
+
+Minimum target:
+
+WCAG 2.2 AA
+
+Requirements:
+
+Semantic HTML
+
+High color contrast
+
+Visible focus indicators
+
+Keyboard navigation
+
+Alt text
+
+Accessible labels
+
+Descriptive buttons
+
+Touch targets ≥44×44px
+
+No color-only communication
+
+Performance Budget
+
+Visual quality must never compromise performance.
+
+Targets:
+
+Optimized WebP images (with fallbacks if needed)
+Lazy loading
+SVG icons
+Minimal font weights
+Limited animations
+No autoplay video
+Efficient CSS architecture
+Minimal JavaScript
+
+Performance is a design requirement.
+
+Component Inventory
+
+Reusable components include:
+
+Header
+Navigation
+Hero
+CTA Buttons
+Trust Bar
+Service Cards
+Feature Cards
+About Section
+Before/After Slider
+Gallery Grid
+Lightbox
+Review Cards
+FAQ Accordion
+Contact Form
+Footer
+Section Headers
+Icon Lists
+Callout Panels
+
+Each component should be built once and reused throughout the site.
+
+Visual Consistency Rules
+
+The implementation team shall ensure:
+
+Consistent spacing
+Consistent typography
+Consistent button styles
+Consistent card treatments
+Consistent shadows
+Consistent iconography
+Consistent animation timing
+Consistent border radius
+
+No page should appear visually disconnected from the rest of the site.
+
+Design Freeze
+
+The following visual decisions are frozen:
+
+Color palette
+Typography
+Component styles
+Photography style
+Animation philosophy
+Layout system
+Responsive behavior
+Accessibility standards
+Component inventory
+
+No visual redesign is permitted during implementation.

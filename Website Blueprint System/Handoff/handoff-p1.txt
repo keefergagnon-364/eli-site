@@ -1,0 +1,272 @@
+Production Handbook
+Part 1 — Executive Project Definition
+
+Version: 1.0
+Project Status: Design Freeze Approved
+Client: IVY Remodeling
+Owner: Eli Doyle
+Document Type: Production Handoff Handbook
+Audience: AI Development Team / Front-End Developers / Future Maintainers
+
+Document Purpose
+
+This document is the authoritative source for the implementation of the IVY Remodeling website.
+
+The planning phase has been completed. All strategic decisions have been reviewed, approved, and frozen.
+
+The purpose of this handbook is to provide the production team with every decision necessary to build the website without consulting the planning documents.
+
+This document replaces all previous planning documents during development.
+
+If a conflict exists between previous planning documents and this handbook, this handbook takes precedence.
+
+The development team is responsible for implementing the approved design—not redesigning, re-planning, or changing business strategy.
+
+Project Overview
+Business Name
+
+IVY Remodeling
+
+Owner
+
+Eli Doyle
+
+Industry
+
+Residential Remodeling & Construction
+
+Business Type
+
+Owner-operated residential remodeling contractor specializing in decks, exterior living spaces, interior remodeling, carpentry, and residential improvements.
+
+Website Type
+
+Local Service Business Website
+
+Lead Generation Website
+
+Local SEO Website
+
+Portfolio Website
+
+Trust Building Website
+
+Primary Business Objective
+
+Generate qualified remodeling leads through an attractive, professional, high-performing website that communicates trust, craftsmanship, and professionalism.
+
+The website exists primarily to convert visitors into estimate requests.
+
+Everything else is secondary.
+
+Business Goals
+
+The completed website must help the business achieve the following goals:
+
+Primary Goals
+Generate qualified estimate requests.
+Increase phone calls.
+Improve local visibility within Google Search.
+Build immediate trust with prospective customers.
+Showcase the quality of completed projects.
+Differentiate IVY Remodeling from competitors.
+Secondary Goals
+Improve brand awareness.
+Establish authority within the White Mountains remodeling market.
+Increase repeat business.
+Encourage referrals.
+Create a scalable platform for future growth.
+Success Metrics
+
+The success of this project will be measured using the following indicators.
+
+Lead Generation
+Increased quote requests.
+Increased phone calls.
+Higher-quality inquiries.
+Improved visitor-to-lead conversion rate.
+Trust
+Longer average session duration.
+Increased gallery interaction.
+Increased review engagement.
+Reduced bounce rate.
+SEO
+Increased impressions.
+Increased local keyword rankings.
+Increased organic traffic.
+Improved Google Business Profile engagement.
+Business Positioning
+
+IVY Remodeling should never attempt to appear as a large corporate contractor.
+
+Instead, the website should embrace the company's genuine strengths.
+
+The business should consistently be presented as:
+
+Owner-operated
+Veteran-owned
+Licensed
+Insured
+Local
+Honest
+Professional
+Detail-oriented
+Built on craftsmanship rather than volume
+Brand Promise
+
+Every interaction with the website should reinforce a single promise:
+
+We treat every home with the same care and attention we would give our own.
+
+Mission Statement
+
+To provide dependable, high-quality remodeling services built on craftsmanship, honesty, and lasting relationships while improving homes throughout Arizona's White Mountains.
+
+Vision Statement
+
+To become the most trusted remodeling company in the White Mountains by consistently delivering exceptional workmanship, transparent communication, and an outstanding customer experience.
+
+Core Values
+
+Every design decision, every piece of content, and every interaction should reflect these values:
+
+Craftsmanship
+
+Quality is never sacrificed for speed.
+
+Integrity
+
+Recommendations should always be honest and in the customer's best interest.
+
+Reliability
+
+Show up.
+
+Communicate.
+
+Finish the work.
+
+Stand behind it.
+
+Professionalism
+
+Maintain clean work, respectful communication, and dependable service.
+
+Community
+
+Support and improve homes within the local White Mountains communities.
+
+Unique Selling Proposition
+
+IVY Remodeling combines over 10 years of industry experience with personalized, owner-operated service to deliver remodeling projects that are built to last—not rushed to completion.
+
+Target Audience
+Primary Audience
+
+Homeowners within Arizona's White Mountains.
+
+Age
+
+35–70
+
+Property Types
+Primary residences
+Vacation homes
+Cabins
+Retirement homes
+Rental properties
+Typical Projects
+Deck replacements
+Outdoor living improvements
+Interior remodeling
+Repairs
+Carpentry
+Painting
+Wood repairs
+Electrical improvements
+Customer Psychology
+
+Visitors typically arrive with one or more concerns:
+
+Can I trust this contractor?
+Will they communicate well?
+Will they show up?
+Will the work last?
+Are they licensed and insured?
+Can I see examples of their work?
+Is this worth the investment?
+
+The website should answer these questions progressively through content, imagery, trust signals, and project examples rather than relying on claims alone.
+
+Competitive Position
+
+The website should compete through:
+
+Better user experience.
+Stronger trust signals.
+Higher-quality presentation.
+Professional photography.
+Local expertise.
+Clear communication.
+
+The website should not compete primarily on price.
+
+Brand Personality
+
+The visual and written identity should consistently communicate:
+
+Honest
+Dependable
+Professional
+Warm
+Skilled
+Approachable
+Experienced
+Local
+
+The tone should remain confident without exaggeration.
+
+Website Personality
+
+If the website were a person, it would be:
+
+A master craftsman.
+Calm under pressure.
+Friendly and approachable.
+Organized.
+Detail-oriented.
+Respectful.
+Knowledgeable.
+Proud of quality workmanship.
+Primary Calls-to-Action
+
+Every page should guide users toward one of two actions:
+
+Primary CTA
+
+Request Your Free Estimate
+
+Secondary CTA
+
+Call Now
+
+These CTAs should remain consistent throughout the site to reduce decision fatigue and reinforce the primary conversion goal.
+
+Design Freeze
+
+The following decisions are approved and must not change during implementation without an approved scope revision:
+
+Brand identity
+Color palette
+Typography
+Navigation
+Sitemap
+Homepage structure
+Service hierarchy
+Core messaging
+SEO strategy
+CTA wording
+Placeholder policy
+Overall visual direction
+
+The implementation team is responsible for executing these decisions faithfully.

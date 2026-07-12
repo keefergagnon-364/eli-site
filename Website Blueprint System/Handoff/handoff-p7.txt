@@ -1,0 +1,415 @@
+Production Handbook
+Part 7 — Asset Management, Media Standards & Placeholder Library
+
+Document Type: Asset Management Specification
+
+Status: Design Freeze Approved
+
+Authority: This document defines every media asset, placeholder policy, naming convention, optimization requirement, replacement workflow, and asset management standard used throughout the IVY Remodeling website.
+
+Purpose
+
+This document ensures that all visual assets are:
+
+Consistent
+Optimized
+Easy to replace
+Organized
+Scalable
+SEO friendly
+
+The implementation team shall treat media assets as part of the architecture—not decorative content.
+
+Asset Philosophy
+
+Every image should accomplish at least one objective:
+
+Build trust
+Explain a service
+Showcase craftsmanship
+Improve usability
+Support SEO
+
+No image should exist solely to fill empty space.
+
+Asset Categories
+
+The website uses the following asset groups:
+
+Brand Assets
+Primary Logo
+Alternate Logo
+Favicon
+Apple Touch Icon
+Social Sharing Image
+Brand Icons
+Photography
+Hero Photography
+Service Photography
+Project Photography
+Before Images
+After Images
+Gallery Images
+About Section Portrait
+Process Photography
+Icons
+Trust Icons
+Service Icons
+Navigation Icons
+Contact Icons
+Social Icons
+
+SVG preferred.
+
+Decorative Assets
+Ivy Vine Graphics
+Section Dividers
+Background Textures
+Decorative Shapes
+
+Decorative assets should never interfere with readability.
+
+Folder Organization
+/assets/
+    images/
+        hero/
+        gallery/
+        before-after/
+        services/
+        about/
+        trust/
+        icons/
+        placeholders/
+        backgrounds/
+
+    logos/
+
+    favicons/
+
+    social/
+
+    illustrations/
+
+The structure should remain stable throughout the life of the project.
+
+Naming Convention
+
+Use descriptive, lowercase, hyphenated filenames.
+
+Examples:
+
+hero-deck-construction.webp
+
+eli-doyle-placeholder.webp
+
+deck-before-01.webp
+
+deck-after-01.webp
+
+trex-deck-project-02.webp
+
+Avoid:
+
+IMG_1023.jpg
+
+photo1.png
+
+image-final-final.jpg
+
+new-image.webp
+Image Formats
+
+Preferred formats:
+
+Photography
+
+WebP
+
+Fallback:
+
+JPEG
+
+Logos
+
+SVG
+
+Fallback:
+
+PNG
+
+Icons
+
+SVG only.
+
+Transparency
+
+PNG only when SVG cannot be used.
+
+Image Optimization Standards
+
+Every image should be optimized before deployment.
+
+Recommended maximum sizes:
+
+Hero
+
+250–400 KB
+
+Gallery
+
+100–250 KB
+
+Service Images
+
+100–200 KB
+
+Icons
+
+<10 KB
+
+Favicons
+
+As small as practical while retaining clarity.
+
+Responsive Images
+
+Every major photograph should provide multiple sizes.
+
+Example:
+
+hero-480.webp
+
+hero-768.webp
+
+hero-1200.webp
+
+hero-1920.webp
+
+Use <picture> or srcset where appropriate.
+
+Hero Image
+
+Purpose:
+
+Immediately communicate professionalism and craftsmanship.
+
+Requirements:
+
+High quality
+Natural lighting
+Arizona-style residential setting
+Large composition
+Space for text overlay
+Fast loading
+
+Avoid cluttered compositions that compete with headlines.
+
+Service Images
+
+Every service page requires:
+
+Hero image
+
+Supporting image(s)
+
+Detail photography
+
+Optional before/after comparison
+
+All images should accurately represent the service.
+
+Gallery Images
+
+Gallery images should emphasize:
+
+Finished work
+Quality details
+Materials
+Craftsmanship
+Variety of projects
+
+Avoid repetitive angles or nearly identical images.
+
+Before / After Images
+
+Every pair should follow consistent standards:
+
+Same angle
+
+Similar lighting where possible
+
+Comparable framing
+
+Clear visual improvement
+
+Each pair should include descriptive captions.
+
+Placeholder Asset Policy
+
+Approved placeholders include:
+
+Owner portrait
+Additional project photography
+Before/after examples
+Gallery images
+Review profile photos (if used)
+
+Requirements:
+
+High-quality
+Commercially licensed
+Similar style to final imagery
+Easy replacement
+Clearly documented in the asset inventory
+Placeholder Replacement Workflow
+
+When a real asset becomes available:
+
+Replace the placeholder file.
+Keep the same filename if practical.
+Preserve dimensions.
+Verify responsive versions.
+Confirm alt text.
+Re-test layout.
+
+The replacement process should never require HTML or CSS changes.
+
+Logo Standards
+
+Primary format:
+
+SVG
+
+Fallback:
+
+PNG
+
+Requirements:
+
+Transparent background
+
+Sharp rendering
+
+Consistent spacing
+
+Adequate clear space
+
+Never stretch or distort the logo.
+
+Favicon Requirements
+
+Generate:
+
+favicon.ico
+16×16 PNG
+32×32 PNG
+48×48 PNG
+Apple Touch Icon
+Android icons
+Web Manifest icons
+Social Sharing Images
+
+Every major page should have an Open Graph image.
+
+Recommended size:
+
+1200 × 630 px
+
+Include:
+
+Logo
+Brand colors
+Minimal text
+Project photography where appropriate
+Alt Text Standards
+
+Every image must include descriptive alt text.
+
+Good example:
+
+Newly constructed Trex deck overlooking a wooded backyard in Show Low, Arizona.
+
+Poor example:
+
+Deck
+
+Decorative graphics should use empty alt attributes.
+
+Lazy Loading Policy
+
+Lazy load:
+
+Gallery images
+Below-the-fold photography
+Background images where practical
+
+Do not lazy load:
+
+Hero image
+Logo
+Above-the-fold trust icons
+Image SEO
+
+Every image should include:
+
+Descriptive filename
+Alt text
+Width/height attributes
+Responsive sizes
+Appropriate compression
+
+Images should contribute to local SEO where relevant.
+
+Media Accessibility
+
+Ensure:
+
+Meaningful alt text
+No text embedded in critical images
+Sufficient contrast for overlays
+Captions where helpful
+Accessible lightbox behavior
+Asset Inventory
+Existing Assets
+Final Logo
+Hero Artwork
+Brand Guidelines
+Mission Statement
+Color Palette
+Typography
+Project Photography
+Before/After Photography
+Placeholder Assets
+Owner portrait
+Additional gallery images
+Additional project photography
+Additional before/after examples
+Future Assets
+Updated project photos
+Customer-submitted images
+Additional testimonials
+Seasonal project photography
+Media Quality Checklist
+
+Before launch, verify:
+
+All images optimized
+SVG logos in place
+Responsive image sizes generated
+Alt text complete
+Placeholder assets documented
+Open Graph images created
+Favicon package complete
+File naming conventions followed
+Asset Freeze
+
+The following are frozen:
+
+Folder structure
+Naming conventions
+Placeholder policy
+Image optimization standards
+Replacement workflow
+Asset categories
+
+Media may be replaced, but the management system shall remain unchanged.
